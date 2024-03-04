@@ -1,16 +1,21 @@
 # Milestone-Project-1
 <!DOCTYPE HTML>
-<HTML>
+<HTML lang="en">
   <Head>
-    <Style>
+    <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <Title>Art Block/Home Page</Title>
+      </Head>
      <!--the background of the home page will be an art picture-->
+  
       body {
           display: flex;
           flex-wrap: wrap;
           background-image: url('img_art_picture.jpg');
           padding: 0 300px;
         }
+    <!-- css coding of images that will be displayed on the bottom of the home page. 
         img{
         flex: 1 800px;
         width: 400px;
@@ -18,7 +23,7 @@
         object-fit: cover;
         }
       <!-- the header 1 will display the title of the home page -->
-      <h1> Start Your Creative Art Path </h1>
+      <h1> Creative Minds</h1>
   <!-- nav bar css styles -->
       ul {
       list-style-type: none;
@@ -34,15 +39,15 @@
       display: block;
       color: white;
       text-align: center;
-      padding: #px #px;
+      padding: 400px 400px;
       text-decoration: none;
       }
     li a:hover {
-      background-color: #color;
+      background-color: #pink;
       }
       </style>
-  </Head>
-  <!-- This where the nav bar will be that includes css styles -->
+    
+  <!-- This where the nav bar will be at the top of the web page that includes css styles -->
        <body>
     <ul>
     <li><a class="active" href="home">home</a></li>
